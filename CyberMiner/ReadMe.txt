@@ -15,3 +15,5 @@ Search Tab:
 
 -You will see list of website URLs which have results from the specified string
 
+Note: A new database connection needs to be established. The one here is an old one and it doesn't work.
+
