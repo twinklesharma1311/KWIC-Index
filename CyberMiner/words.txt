@@ -1,0 +1,16 @@
+CREATE TABLE urltable
+(
+urlId int NOT NULL AUTO_INCREMENT,
+url varchar(100),
+orgLine varchar(250),
+active boolean,
+PRIMARY KEY (urlId)
+)
+
+CREATE TABLE shiftlines
+(
+lineId int NOT NULL AUTO_INCREMENT,
+line varchar(250),
+urlId int,
+PRIMARY KEY (lineId)
+)
